@@ -9,7 +9,9 @@
 **Inspiration:** [Link](https://dribbble.com/shots/3577112-Pixel-sorting-experiment)
 
 **Note:**  
-Drawing on the work's horizontally fractured banding and color layering, I'll use pixel reordering to stretch pixels along scan lines by brightness and hue, and manipulate time to create a slow-moving, fractured, and recomposed effect. Pixel reordering facilitates parameterized and abstract design, such as direction, threshold, intensity, and real-time interactivity. This allows for dynamic and controllable manipulation while preserving the original work's abstract composition. Therefore, I'll choose this imaging method, as it will allow me to easily replicate and expand upon the visual effects in code for my final project.
+Utilizing the work's horizontally fractured strips and color gradations, I will employ pixel remapping techniques, stretching pixels along scan lines through brightness and hue, which continuously change over time, creating a slowly moving, cyclical effect of fragmentation, reassembly, and refracture.
+
+Pixel remapping techniques facilitate parameterization and abstraction of the design work, such as direction, threshold, intensity, and real-time interactivity. This allows for dynamic and controllable manipulation while preserving the original work's abstract composition. I will choose this imaging method because it allows me to easily replicate and expand the visual effects of the final project in code.
 
 ![high-quality screenshot 01](Picture/screenshot01.png)  
 ![high-quality screenshot 02](Picture/screenshot02.png)
