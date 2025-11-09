@@ -6,7 +6,7 @@ let isModelReady = false;
 
 function preload() {
   // 加载背景图片（可以换成你自己的路径）
-  bgImg = loadImage('assets/Edvard_Munch_The_Scream.jpeg');
+  bgImg = loadImage('Edvard_Munch_The_Scream.jpeg');
 }
 
 function setup() {
