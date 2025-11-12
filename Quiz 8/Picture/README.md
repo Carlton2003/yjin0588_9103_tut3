@@ -13,8 +13,8 @@ Utilizing the work's horizontally fractured strips and color gradations, I will 
 
 Pixel remapping techniques facilitate parameterization and abstraction of the design work, such as direction, threshold, intensity, and real-time interactivity. This allows for dynamic and controllable manipulation while preserving the original work's abstract composition. I will choose this imaging method because it allows me to easily replicate and expand the visual effects of the final project in code.
 
-![high-quality screenshot 01](Picture/screenshot01.png)  
-![high-quality screenshot 02](Picture/screenshot02.png)
+![high-quality screenshot 01](screenshot01.png)  
+![high-quality screenshot 02](screenshot02.png)
 
 ## Part 2: Coding Technique Exploration
 
@@ -23,7 +23,7 @@ This code uses GPU parallel processing to sort pixel values ​​bit by bit usi
 
 **Existing code & Explaination:** [Link](https://lukecochrane.com/blog/pixel-sorting?utm_source=chatgpt.com)
 
-![existing code](Picture/screenshot03.png)  
-![existing code](Picture/screenshot04.png)  
-![existing code](Picture/screenshot05.png)  
-![existing code](Picture/screenshot06.png)
+![existing code](screenshot03.png)  
+![existing code](screenshot04.png)  
+![existing code](screenshot05.png)  
+![existing code](screenshot06.png)
