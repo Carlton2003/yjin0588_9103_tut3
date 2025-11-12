@@ -5,7 +5,7 @@ let bgImg;
 let isModelReady = false;
 
 function preload() {
-  // 加载背景图片（可以换成你自己的路径）
+  // 加载背景图片
   bgImg = loadImage('Edvard_Munch_The_Scream.jpeg');
 }
 
@@ -52,6 +52,10 @@ function draw() {
 let dynamicStrength = 80 + sin(frameCount * 0.05) * 40;
 // 噪声流动速度（y方向更快一点，像瀑布）
 let dynamicSpeed = 0.02 + abs(sin(frameCount * 0.01)) * 0.03;
+//perlin noise 5
+//drawWavyBackgroundFull(bgImg, 60, 0.02, 6, 15);
+
+
 
 // 调用扭曲函数
 drawWavyBackground(bgImg, dynamicStrength, dynamicSpeed);
@@ -194,4 +198,4 @@ function drawWavyBackground(img, waveStrength = 20, noiseScale = 0.02) {
   image(pg, 0, 0, width, height);
 }
 
-
+//perlin noise 5
