@@ -5,23 +5,23 @@ let bgImg;
 let isModelReady = false;
 
 function preload() {
-  // 加载背景图片
+  //Load background image
   bgImg = loadImage('Edvard_Munch_The_Scream.jpeg');
 }
 
 function setup() {
-  //画布创建
+  //Canvas Creation
   createCanvas(480, 600);
-  //按钮创建
+  //Button creation
   let saveBtn = createButton('💾 Save your scream');
   saveBtn.position(10, 10);//位置
   saveBtn.mousePressed(saveSnapshot);
   
-  //视频参数
+  //Video parameters
   let constraints = {
     video: {
-      width: 100,    // 宽度
-      height: 100    // 高度
+      width: 100,    // width
+      height: 100    // height
     },
     audio: false
   };
@@ -30,10 +30,10 @@ function setup() {
   video.size(100, 100);
   video.hide();
 
-  // 加载 UNet 实时人体分割模型
+  //Loading the UNet real-time human segmentation model
   segmenter = ml5.uNet('person', modelReady);
 }
-//模型调用
+//Model call
 function modelReady() {
   console.log('✅ Model loaded!');
   isModelReady = true;
@@ -47,7 +47,7 @@ function draw() {
   //perlin noise 3
   //let dynamicStrength = 30 + sin(frameCount * 0.02) * 15;
   //drawWavyBackground(bgImg, dynamicStrength, 0.02);
-  //perlin 4
+  //perlin noise 4
   // 动态波动强度：随时间上下律动
 let dynamicStrength = 80 + sin(frameCount * 0.05) * 40;
 // 噪声流动速度（y方向更快一点，像瀑布）
